@@ -1,0 +1,23 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.datepicker-container {
+    margin-inline: auto;
+}
+
+.input-row {
+    display: flex;
+}
+
+.month-menu {
+    display: flex;
+    
+}
+
+.week-row {
+    display: flex;
+}
