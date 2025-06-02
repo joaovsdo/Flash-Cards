@@ -5,19 +5,39 @@
     box-sizing: border-box;
 }
 
+body{
+    display: grid;
+    place-items: center;
+}
+
 .datepicker-container {
-    margin-inline: auto;
+    pad: 10px;
+    width: 300px;
+    background-color: darkgrey;
 }
 
 .input-row {
     display: flex;
+    border: 2px solid black;
+}
+.place-date {
+    width: 90%;
+}
+.date-icon{
+    font-size: 2rem;
+}
+.calendar-row{
+    margin-top: 0.3rem;
+    border: 2px solid black;
+    padding: 10px;
 }
 
 .month-menu {
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .week-row {
     display: flex;
+    justify-content: space-between;
 }
