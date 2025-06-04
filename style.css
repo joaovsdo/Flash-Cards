@@ -13,7 +13,7 @@ body{
 .datepicker-container {
     pad: 10px;
     width: 300px;
-    background-color: darkgrey;
+    position: relative;
 }
 
 .input-row {
@@ -26,8 +26,14 @@ body{
 .date-icon{
     font-size: 2rem;
 }
-.calendar-row{
-    margin-top: 0.3rem;
+
+.calendar{
+    position: absolute;
+    top: 45px;
+}
+
+.calendar{
+
     border: 2px solid black;
     padding: 10px;
 }
@@ -37,7 +43,13 @@ body{
     justify-content: space-between;
 }
 
-.week-row {
+.weekdays, .days {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.weekdays div, .days div {
+    width: 14.28%;
+    text-align: center;
+    padding: 10px 0;
 }
