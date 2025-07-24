@@ -1,0 +1,21 @@
+.card-content {
+    max-height: 371px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 236, 234);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.card-text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-content.flipped {
+  background-color: #91f0a7;
+}
